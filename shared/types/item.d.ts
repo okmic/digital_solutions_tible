@@ -6,3 +6,9 @@ export interface IItem {
   createdAt: Date
   updatedAt: Date
 }
+
+export interface ItemsResponse {
+  items: IItem[]
+  hasMore: boolean
+  total: number
+}

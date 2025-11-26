@@ -1,0 +1,14 @@
+{
+  "name": "digital_solutions_tible",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/okmic/digital_solutions_tible.git",
+  "author": "okmic <okmic.g@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "app:dev": "concurrently 'cd server && yarn dev' 'cd frontend && yarn dev'"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
