@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/cmd/main.ts",
+    "build": "tsp -p ."
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",

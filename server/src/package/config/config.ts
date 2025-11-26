@@ -10,7 +10,6 @@ const valueOrError = (value: any): string  => {
 }
 export default {
     PORT: Number(valueOrError(process.env.PORT)),
-    ME_URL: valueOrError(process.env.ME_URL),
     MONGODB_URI: valueOrError(process.env.MONGODB_URI),
-    DB_NAME: valueOrError(process.env.MONGO_DB_NAME),
+    DB_NAME: valueOrError(process.env.DB_NAME),
 }
